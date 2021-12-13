@@ -1,16 +1,14 @@
 # Proyecto-de-gestion-de-pagos-ERP-
 Intruducción a los sistemas de gestion 
 
-Anexo el codigo para el acceso a la base de datos em phpmyadmin 
+Anexo el codigo para el acceso a la base de datos en php 
 
 -- phpMyAdmin SQL Dump
 -- version 5.0.2
--- https://www.phpmyadmin.net/
---
+
+
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 22-08-2020 a las 00:18:32
--- Versión del servidor: 10.4.11-MariaDB
--- Versión de PHP: 7.4.4
+
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
