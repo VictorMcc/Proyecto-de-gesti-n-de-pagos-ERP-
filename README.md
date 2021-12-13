@@ -96,8 +96,8 @@ CREATE TABLE `student` (
 --
 
 INSERT INTO `student` (`id`, `emailid`, `sname`, `joindate`, `about`, `contact`, `fees`, `branch`, `balance`, `delete_status`) VALUES
-(10, 'rpelaez@cweb.com', 'Roberto Pelaez', '2020-08-20 00:00:00', 'Excelente estudiante recomendado', '3162345871', 1000000, '2', 700000, '0'),
-(11, 'fmendoza@cweb.com', 'Francisco Mendoza', '2020-08-21 00:00:00', 'Estudiante es migrado de otro colegio, noticias excelentes.', '3154678143', 1200000, '1', 1080000, '0');
+(10, 'correo', 'nombre', '2020-08-20 00:00:00', 'Excelente estudiante recomendado', '3162345871', 1000000, '2', 700000, '0'),
+(11, 'correo', 'nombre', '2020-08-21 00:00:00', 'Estudiante es migrado de otro colegio, noticias excelentes.', '3154678143', 1200000, '1', 1080000, '0');
 
 -- --------------------------------------------------------
 
@@ -119,7 +119,7 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `username`, `password`, `name`, `emailid`, `lastlogin`) VALUES
-(1, 'configuroweb', '4b67deeb9aba04a5b54632ad19934f26', 'ConfiguroWeb', 'hola@cweb.com', '0000-00-00 00:00:00');
+(1, 'configuroweb', '4b67deeb9aba04a5b54632ad19934f26', 'ConfiguroWeb', 'hola', '0000-00-00 00:00:00');
 
 --
 -- Índices para tablas volcadas
